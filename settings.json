@@ -1,0 +1,120 @@
+{
+  "window.titleBarStyle": "custom",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.dragAndDrop": true,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": false,
+  "editor.fontSize": 14,
+  "workbench.startupEditor": "none",
+  "editor.smoothScrolling": true,
+  "editor.linkedEditing": true,
+  "editor.inlineSuggest.enabled": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Shades of Purple",
+  "files.exclude": {
+    "out": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    ".vscode": true,
+    "**/*.pyc": true,
+    "dist": true,
+    ".nyc_output": true,
+    "obj": true,
+    "bin": true,
+    "**/__pycache__": true,
+    "**/node_modules": true,
+    ".vscode-test": false,
+    ".vscode test": false,
+    "**/.mypy_cache/**": true
+  },
+  "explorer.confirmDelete": false,
+  "css.lint.unknownAtRules": "ignore",
+  "editor.codeActionsOnSave": {},
+  "workbench.editorAssociations": {
+    "*.pdf": "default"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": false,
+    "css": true,
+    "python": true
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498db",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "python.defaultInterpreterPath": "/bin/python3",
+  "python.terminal.useEnvFile": true,
+  "git.allowForcePush": true,
+  "git.enabled": false,
+  "gitlens.advanced.messages": {
+    "suppressGitDisabledWarning": true,
+    "suppressGitMissingWarning": true
+  },
+  "http.proxySupport": "on",
+  "http.proxyStrictSSL": false,
+  "chat.agent.maxRequests": 150,
+  "chat.viewSessions.orientation": "stacked",
+  "kiroAgent.agentAutonomy": "Autopilot",
+  "kiroAgent.modelSelection": "claude-opus-4.8",
+  "kiroAgent.configureMCP": "Disabled"
+}
